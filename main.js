@@ -1,8 +1,13 @@
+//Add function
+
 function add(a, b) {
     return a + b;
 }
 
 console.log(add(2, 4))
+
+
+//Multiply function
 
 function multiply(a, b) {
     let product = 0
@@ -14,6 +19,9 @@ function multiply(a, b) {
 }
 console.log(multiply(6, 8))
 
+
+//Power function
+
 function power(x, n) {
     let product = 0
     for (let counter = 1; counter <= n; counter++) {
@@ -22,6 +30,9 @@ function power(x, n) {
     return (multiply(product, product))
 }
 console.log(power(2, 8))
+
+
+//Factorial function
 
 function factorial(n) {
     let product = 1
@@ -33,6 +44,9 @@ function factorial(n) {
     return product
 }
 console.log(factorial(4))
+
+
+//Fibonacci function
 
 function fibonacci(n) {
     let counter1 = 0
